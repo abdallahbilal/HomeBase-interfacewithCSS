@@ -92,11 +92,32 @@ main > img {
     font-weight: 800;
 }
 
+.article2 > p > mark{
+    background: whitesmoke;
+}
+
+.article2 > p > a {
+    color: black;
+    text-decoration: none;
+    font-weight: 900;
+}
+
 
 aside:last-of-type{
     width: 26%;
     padding-left: 20px;
     padding-right: 30px;
-    padding-top: 20px;
+    padding-top: 60px;
 }
 
+aside:last-of-type > h2 {
+    color: red;
+}
+ aside:last-of-type > ul {
+    font-size: 15px;
+ }
+
+ aside:last-of-type > ul > li:nth-child(1) >a{
+    color: black;
+    text-decoration: none;
+ }
