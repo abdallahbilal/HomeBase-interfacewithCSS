@@ -15,7 +15,7 @@ header > h1 {
 }
 
 header > h1 > em{
-    color: red;
+    color: #AA0000;
     font-style: normal;
 
 }
@@ -41,7 +41,7 @@ width: 66%;
 }
 
 .article1 > h2{
-    color: red;
+    color: #AA0000;
     font-size: 40px;
 }
 
@@ -52,6 +52,7 @@ width: 66%;
 
 
 aside:first-of-type{
+    text-align: center;
     margin-bottom: 130px;
    padding-right: 30px;
    padding-left: 20px;
@@ -83,6 +84,7 @@ main > img {
 }
 
 .article2 > h2 {
+    margin-top: -5px;
     font-size: 55px;
     font-weight: 100;
     transform: scaleY(1.2);
@@ -94,7 +96,7 @@ main > img {
 }
 
 .article2 > p > mark{
-    background: whitesmoke;
+    background: #A9A9A9;
 }
 
 .article2 > p > a {
@@ -115,13 +117,21 @@ aside:last-of-type{
     padding-left: 20px;
     padding-right: 30px;
     padding-top: 60px;
+    margin-bottom:-15px;
 }
 
 aside:last-of-type > h2 {
-    color: red;
+    color: #AA0000;
 }
  aside:last-of-type > ul {
+    list-style-type:"+ ";
     font-size: 15px;
+ }
+
+ aside:last-of-type > ul >li >p > a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
  }
 
  footer > p > small >em{
